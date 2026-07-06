@@ -1,0 +1,9 @@
+#!{{ lookPath "bash" }}
+
+set -euo pipefail
+
+{{ if eq .chezmoi.os "darwin" -}}
+# {{ include "dot_Brewfile" | sha256sum }}
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew bundle check || brew bundle install --global
+{{ end -}}

@@ -1,0 +1,25 @@
+{{ if eq .chezmoi.os "darwin" -}}
+/opt/homebrew/bin/brew shellenv | source
+{{ end -}}
+
+fish_config theme choose catppuccin-mocha
+
+function fish_greeting
+end
+
+function fish_prompt
+    string join '' -- (set_color --bold) (prompt_pwd) (set_color black) ' ➜ ' (set_color --reset)
+end
+
+alias c clear
+
+if type --query eza
+    alias l ll
+    alias ll 'eza --long --icons=auto --all --group-directories-first --header --git --octal-permissions --no-time'
+    alias ls 'eza --icons=auto'
+end
+
+if type --query zed
+    set --global --export EDITOR 'zed --wait'
+    set --global --export VISUAL 'zed --wait'
+end

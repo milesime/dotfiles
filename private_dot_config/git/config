@@ -1,0 +1,48 @@
+[commit]
+	gpgSign = true
+
+[core]
+	fsmonitor = true
+	untrackedCache = true
+
+[fetch]
+	all = true
+	prune = true
+	pruneTags = true
+
+[gpg]
+	format = ssh
+
+[init]
+	defaultBranch = main
+
+[maintenance]
+	strategy = incremental
+
+[merge]
+	conflictStyle = zdiff3
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+	followTags = true
+
+[rebase]
+	autoStash = true
+
+[rerere]
+	autoUpdate = true
+	enabled = true
+
+[tag]
+	gpgSign = true
+
+[transfer]
+	fsckObjects = true
+
+[user]
+	email = 213074881+milesime@users.noreply.github.com
+	name = Milesime
+	signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICEnGHXY3YyBvBKR7hUIUA8u4zFvgo6ubezylBXHMh+Q

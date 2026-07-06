@@ -1,0 +1,103 @@
+{
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "editorconfig": true,
+    "git-firefly": true,
+    "just": true,
+    "ocaml": true,
+    "oxc": true,
+    "toml": true,
+    "tombi": true,
+    "typst": true,
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "colorize_brackets": true,
+  "completion_menu_item_kind": "symbol",
+  "disable_ai": true,
+  "document_folding_ranges": "on",
+  "document_symbols": "on",
+  "edit_predictions": {
+    "allow_data_collection": "no",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "languages": {
+    "C": {
+      "format_on_save": "on",
+    },
+    "C++": {
+      "format_on_save": "on",
+    },
+    "Markdown": {
+      "format_on_save": "on",
+    },
+  },
+  "lsp": {
+    "ocamllsp": {
+      "settings": {
+        "extendedHover": {
+          "enable": true,
+        },
+      },
+    },
+    "tinymist": {
+      "initialization_options": {
+        "preview": {
+          "background": {
+            "enabled": true,
+          },
+        },
+      },
+      "settings": {
+        "formatterPrintWidth": 80,
+      },
+    },
+  },
+  "project_panel": {
+    "dock": "left",
+    "hide_root": true,
+  },
+  "semantic_tokens": "combined",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "status_bar": {
+    "active_encoding_button": "enabled",
+    "line_endings_button": true,
+  },
+  "tabs": {
+    "file_icons": true,
+    "show_diagnostics": "all",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "theme": {
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte",
+  },
+  "theme_overrides": {
+    "Catppuccin Latte": {
+      "border.variant": "#ccd0da",
+    },
+    "Catppuccin Frappé": {
+      "border.variant": "#414559",
+    },
+    "Catppuccin Macchiato": {
+      "border.variant": "#363a4f",
+    },
+    "Catppuccin Mocha": {
+      "border.variant": "#313244",
+    },
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "ui_font_family": ".SystemUIFont",
+}

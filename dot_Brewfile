@@ -1,0 +1,14 @@
+brew "chezmoi"
+brew "eza"
+brew "fish"
+brew "git"
+brew "mas"
+
+cask "affinity"
+cask "bitwarden"
+cask "font-jetbrains-mono-nerd-font"
+cask "google-gemini"
+cask "whatsapp"
+cask "zed"
+
+mas "Wipr 2", id: 1662217862
