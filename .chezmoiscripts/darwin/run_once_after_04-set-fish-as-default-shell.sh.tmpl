@@ -2,12 +2,10 @@
 
 set -euo pipefail
 
-{{ if eq .chezmoi.os "darwin" -}}
 readonly FISH_PATH="/opt/homebrew/bin/fish"
 
 if ! grep -Fxq "${FISH_PATH}" /etc/shells; then
-  echo "${FISH_PATH}" | sudo tee -a /etc/shells >/dev/null
+  echo "${FISH_PATH}" | sudo tee -a /etc/shells
 fi
 
 sudo chsh -s "${FISH_PATH}" "{{ .chezmoi.username }}"
-{{ end -}}
