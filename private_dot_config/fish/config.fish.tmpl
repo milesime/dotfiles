@@ -1,6 +1,6 @@
-{{ if eq .chezmoi.os "darwin" -}}
-/opt/homebrew/bin/brew shellenv | source
-{{ end -}}
+{{ if eq .chezmoi.os "darwin" }}
+/opt/homebrew/bin/brew shellenv fish | source
+{{ end }}
 
 fish_config theme choose catppuccin-mocha
 
@@ -12,14 +12,11 @@ function fish_prompt
 end
 
 alias c clear
+alias l ll
+alias ll 'eza --long --icons=auto --all --group-directories-first --header --git --octal-permissions --no-time'
+alias ls 'eza --icons=auto'
 
-if type --query eza
-    alias l ll
-    alias ll 'eza --long --icons=auto --all --group-directories-first --header --git --octal-permissions --no-time'
-    alias ls 'eza --icons=auto'
-end
+set --global --export EDITOR 'zed --wait'
+set --global --export VISUAL 'zed --wait'
 
-if type --query zed
-    set --global --export EDITOR 'zed --wait'
-    set --global --export VISUAL 'zed --wait'
-end
+set --global --export SSH_AUTH_SOCK ~/.bitwarden-ssh-agent.sock
