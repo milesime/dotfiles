@@ -1,9 +1,7 @@
 {
   "auto_install_extensions": {
     "catppuccin": true,
-    "editorconfig": true,
     "git-firefly": true,
-    "just": true,
     "ocaml": true,
     "oxc": true,
     "toml": true,
@@ -23,6 +21,99 @@
     "dock": "left",
   },
   "languages": {
+    "YAML": {
+      "format_on_save": "on",
+    },
+    "Typst": {
+      "format_on_save": "on",
+    },
+    "TypeScript": {
+      "format_on_save": "on",
+    },
+    "TSX": {
+      "format_on_save": "on",
+    },
+    "Shell Script": {
+      "format_on_save": "on",
+    },
+    "Regex": {
+      "format_on_save": "on",
+    },
+    "Reason Interface": {
+      "format_on_save": "on",
+    },
+    "Reason": {
+      "format_on_save": "on",
+    },
+    "Python": {
+      "format_on_save": "on",
+    },
+    "Plain Text": {
+      "format_on_save": "on",
+    },
+    "Odoc": {
+      "format_on_save": "on",
+    },
+    "OCamllex": {
+      "format_on_save": "on",
+    },
+    "OCaml MLX": {
+      "format_on_save": "on",
+    },
+    "OCaml Interface": {
+      "format_on_save": "on",
+    },
+    "Menhir": {
+      "format_on_save": "on",
+    },
+    "Markdown-Inline": {
+      "format_on_save": "on",
+    },
+    "JSONC": {
+      "format_on_save": "on",
+    },
+    "JSON": {
+      "format_on_save": "on",
+    },
+    "JSDoc": {
+      "format_on_save": "on",
+    },
+    "JavaScript": {
+      "format_on_save": "on",
+    },
+    "HTML": {
+      "format_on_save": "on",
+    },
+    "Go Work": {
+      "format_on_save": "on",
+    },
+    "Go Mod": {
+      "format_on_save": "on",
+    },
+    "Git Rebase": {
+      "format_on_save": "on",
+    },
+    "Git Ignore": {
+      "format_on_save": "on",
+    },
+    "Git Config": {
+      "format_on_save": "on",
+    },
+    "Git Commit": {
+      "format_on_save": "on",
+    },
+    "Git Attributes": {
+      "format_on_save": "on",
+    },
+    "Dune": {
+      "format_on_save": "on",
+    },
+    "Diff": {
+      "format_on_save": "on",
+    },
+    "CSS": {
+      "format_on_save": "on",
+    },
     "C": {
       "format_on_save": "on",
     },
@@ -30,6 +121,12 @@
       "format_on_save": "on",
     },
     "Markdown": {
+      "format_on_save": "on",
+    },
+    "TOML": {
+      "format_on_save": "on",
+    },
+    "OCaml": {
       "format_on_save": "on",
     },
   },
