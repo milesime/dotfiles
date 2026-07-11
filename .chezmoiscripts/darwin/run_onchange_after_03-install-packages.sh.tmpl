@@ -4,4 +4,4 @@ set -euo pipefail
 
 # {{ include "dot_Brewfile" | sha256sum }}
 
-/opt/homebrew/bin/brew bundle install --global
+/opt/homebrew/bin/brew bundle install --global --force-cleanup
