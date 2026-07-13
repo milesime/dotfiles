@@ -2,10 +2,6 @@
 /opt/homebrew/bin/brew shellenv fish | source
 {{ end }}
 
-if set -l dune_env (dune tools env 2>/dev/null)
-    echo $dune_env | source
-end
-
 fish_config theme choose catppuccin-mocha
 
 function fish_greeting
@@ -19,8 +15,3 @@ alias c clear
 alias l ll
 alias ll 'eza --long --icons=auto --all --group-directories-first --header --git --octal-permissions --no-time'
 alias ls 'eza --icons=auto'
-
-set --global --export EDITOR 'zed --wait'
-set --global --export VISUAL 'zed --wait'
-
-set --global --export SSH_AUTH_SOCK ~/.bitwarden-ssh-agent.sock

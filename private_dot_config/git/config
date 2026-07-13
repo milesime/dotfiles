@@ -1,6 +1,3 @@
-[commit]
-	gpgSign = true
-
 [core]
 	fsmonitor = true
 	untrackedCache = true
@@ -9,9 +6,6 @@
 	all = true
 	prune = true
 	pruneTags = true
-
-[gpg]
-	format = ssh
 
 [init]
 	defaultBranch = main
@@ -36,13 +30,9 @@
 	autoUpdate = true
 	enabled = true
 
-[tag]
-	gpgSign = true
-
 [transfer]
 	fsckObjects = true
 
 [user]
 	email = 213074881+milesime@users.noreply.github.com
 	name = Milesime
-	signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICEnGHXY3YyBvBKR7hUIUA8u4zFvgo6ubezylBXHMh+Q
