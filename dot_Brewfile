@@ -11,8 +11,6 @@ cask "affinity"
 cask "antigravity"
 cask "font-jetbrains-mono-nerd-font"
 cask "impactor"
-cask "mac-sai"
-cask "sf-symbols"
 cask "whatsapp"
 cask "zed"
 
