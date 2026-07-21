@@ -9,7 +9,6 @@ brew "mise"
 
 cask "affinity"
 cask "font-jetbrains-mono-nerd-font"
-cask "impactor"
 cask "whatsapp"
 cask "zed"
 
