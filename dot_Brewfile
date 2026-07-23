@@ -1,3 +1,5 @@
+tap "pikachuexe/freetube", trusted: true
+
 brew "chezmoi"
 brew "dune"
 brew "eza"
@@ -9,6 +11,7 @@ brew "mise"
 
 cask "affinity"
 cask "font-jetbrains-mono-nerd-font"
+cask "pikachuexe-freetube"
 cask "whatsapp"
 cask "zed"
 
