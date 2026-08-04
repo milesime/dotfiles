@@ -7,6 +7,7 @@
     "tombi": true,
     "toml": true,
     "typst": true,
+    "xmake": true,
   },
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "colorize_brackets": true,
