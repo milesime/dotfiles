@@ -1,0 +1,7 @@
+#!{{ lookPath "bash" }}
+
+set -euo pipefail
+
+if [[ ! -f "${HOME}/.ssh/id_github" ]]; then
+    ssh-keygen -t ed25519 -f "${HOME}/.ssh/id_github" -N ""
+fi

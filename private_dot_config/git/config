@@ -1,0 +1,38 @@
+[core]
+	fsmonitor = true
+	untrackedCache = true
+
+[fetch]
+	all = true
+	prune = true
+	pruneTags = true
+
+[init]
+	defaultBranch = main
+
+[maintenance]
+	strategy = incremental
+
+[merge]
+	conflictStyle = zdiff3
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+	followTags = true
+
+[rebase]
+	autoStash = true
+
+[rerere]
+	autoUpdate = true
+	enabled = true
+
+[transfer]
+	fsckObjects = true
+
+[user]
+	email = 213074881+milesime@users.noreply.github.com
+	name = Milesime

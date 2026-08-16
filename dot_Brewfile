@@ -1,0 +1,21 @@
+brew "chezmoi"
+brew "dune"
+brew "eza"
+brew "fish"
+brew "git"
+brew "libmagic"
+brew "mas"
+brew "mise"
+
+cask "affinity"
+cask "font-jetbrains-mono-nerd-font"
+cask "netnewswire"
+cask "whatsapp"
+cask "zed"
+
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 361285480
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Wipr", id: 1662217862

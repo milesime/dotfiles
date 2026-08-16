@@ -1,0 +1,79 @@
+{
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "git-firefly": true,
+    "ocaml": true,
+    "oxc": true,
+    "tombi": true,
+    "toml": true,
+    "typst": true,
+    "zig": true
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "colorize_brackets": true,
+  "completion_menu_item_kind": "symbol",
+  "disable_ai": true,
+  "edit_predictions": {
+    "allow_data_collection": "no"
+  },
+  "format_on_save": "on",
+  "git_panel": {
+    "dock": "left"
+  },
+  "lsp": {
+    "tinymist": {
+      "initialization_options": {
+        "preview": {
+          "background": {
+            "enabled": true
+          }
+        }
+      },
+      "settings": {
+        "formatterPrintWidth": 80
+      }
+    }
+  },
+  "project_panel": {
+    "dock": "left",
+    "hide_root": true
+  },
+  "semantic_tokens": "combined",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "tabs": {
+    "file_icons": true,
+    "show_diagnostics": "all"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "theme": {
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte"
+  },
+  "theme_overrides": {
+    "Catppuccin Frappé": {
+      "border.variant": "#414559"
+    },
+    "Catppuccin Latte": {
+      "border.variant": "#ccd0da"
+    },
+    "Catppuccin Macchiato": {
+      "border.variant": "#363a4f"
+    },
+    "Catppuccin Mocha": {
+      "border.variant": "#313244"
+    }
+  },
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "ui_font_family": ".SystemUIFont"
+}
