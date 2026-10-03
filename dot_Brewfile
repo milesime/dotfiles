@@ -6,9 +6,13 @@ brew "git"
 brew "libmagic"
 brew "mas"
 brew "mise"
+brew "mole"
 
 cask "affinity"
 cask "font-jetbrains-mono-nerd-font"
+cask "helium-browser"
+cask "dennistimmermann/tap/keychange", trusted: true
+cask "linearmouse"
 cask "netnewswire"
 cask "whatsapp"
 cask "zed"
