@@ -17,9 +17,6 @@
     "allow_data_collection": "no"
   },
   "format_on_save": "on",
-  "git_panel": {
-    "dock": "left"
-  },
   "lsp": {
     "tinymist": {
       "initialization_options": {
@@ -35,10 +32,8 @@
     }
   },
   "project_panel": {
-    "dock": "left",
     "hide_root": true
   },
-  "semantic_tokens": "combined",
   "session": {
     "trust_all_worktrees": true
   },
@@ -53,20 +48,6 @@
   "theme": {
     "dark": "Catppuccin Mocha",
     "light": "Catppuccin Latte"
-  },
-  "theme_overrides": {
-    "Catppuccin Frappé": {
-      "border.variant": "#414559"
-    },
-    "Catppuccin Latte": {
-      "border.variant": "#ccd0da"
-    },
-    "Catppuccin Macchiato": {
-      "border.variant": "#363a4f"
-    },
-    "Catppuccin Mocha": {
-      "border.variant": "#313244"
-    }
   },
   "title_bar": {
     "show_sign_in": false
