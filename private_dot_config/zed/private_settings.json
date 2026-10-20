@@ -55,6 +55,5 @@
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false
-  },
-  "ui_font_family": ".SystemUIFont"
+  }
 }
