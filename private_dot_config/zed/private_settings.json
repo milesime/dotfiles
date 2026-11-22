@@ -1,4 +1,7 @@
 {
+  "agent": {
+    "dock": "right"
+  },
   "auto_install_extensions": {
     "catppuccin": true,
     "git-firefly": true,
@@ -10,13 +13,18 @@
     "zig": true
   },
   "buffer_font_family": "JetBrainsMono Nerd Font",
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "colorize_brackets": true,
   "completion_menu_item_kind": "symbol",
-  "disable_ai": true,
   "edit_predictions": {
     "allow_data_collection": "no"
   },
   "format_on_save": "on",
+  "git_panel": {
+    "dock": "left"
+  },
   "lsp": {
     "tinymist": {
       "initialization_options": {
@@ -31,7 +39,11 @@
       }
     }
   },
+  "outline_panel": {
+    "dock": "left"
+  },
   "project_panel": {
+    "dock": "left",
     "hide_root": true
   },
   "session": {
@@ -48,9 +60,6 @@
   "theme": {
     "dark": "Catppuccin Mocha",
     "light": "Catppuccin Latte"
-  },
-  "title_bar": {
-    "show_sign_in": false
   },
   "toolbar": {
     "breadcrumbs": false,
